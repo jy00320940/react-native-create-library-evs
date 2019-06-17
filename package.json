@@ -1,0 +1,58 @@
+{
+  "name": "react-native-create-library",
+  "version": "3.1.2",
+  "description": "Tool to create a React Native library with a single command",
+  "bin": "cli.js",
+  "main": "lib.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frostney/react-native-create-library.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "library",
+    "create",
+    "module",
+    "native",
+    "ios",
+    "android",
+    "windows"
+  ],
+  "files": [
+    "templates",
+    "utils",
+    "cli.js",
+    "command.js",
+    "lib.js",
+    "README.md"
+  ],
+  "author": "Johannes Stein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frostney/react-native-create-library/issues"
+  },
+  "homepage": "https://github.com/frostney/react-native-create-library#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "mkdirp": "^0.5.1",
+    "node-emoji": "^1.5.1",
+    "param-case": "^2.1.0",
+    "pascal-case": "^2.0.0",
+    "update-notifier": "^2.1.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "shelljs": "^0.7.6"
+  },
+  "rnpm": {
+    "plugin": "./command.js"
+  }
+}
