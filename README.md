@@ -24,7 +24,7 @@ $ npm install -g react-native-create-library-evs
 
 Navigate into an empty directory to execute the command.
 ```
-$ react-native-create-library MyFancyLibrary
+$ react-native-create-library-evs MyFancyLibrary
 ```
 
 This will create the folder `MyFancyLibrary` in which the library will be created in.
