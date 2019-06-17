@@ -17,7 +17,7 @@ Caution: This only creates native modules without a view component.
 ## Installation
 Requirements: Node 6.0+
 ```
-$ npm install -g react-native-create-library-evs
+$ npm install -g react-native-create-library
 ```
 
 ## Command-line usage
