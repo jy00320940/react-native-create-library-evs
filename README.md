@@ -1,4 +1,4 @@
-# react-native-create-library
+# react-native-create-library-evs
 Tool to create a React Native library with a single command.
 
 ![](https://github.com/frostney/react-native-create-library/blob/master/docs/usage.gif)
